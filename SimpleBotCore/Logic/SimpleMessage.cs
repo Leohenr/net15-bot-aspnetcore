@@ -10,6 +10,7 @@ namespace SimpleBotCore.Logic
         public string Id { get; }
         public string User { get; }
         public string Text { get; }
+        public int Contagem { get; set; }
 
         public SimpleMessage(string id, string username, string text)
         {

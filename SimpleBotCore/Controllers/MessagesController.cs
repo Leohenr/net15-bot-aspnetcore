@@ -60,5 +60,6 @@ namespace SimpleBotCore.Controllers
 
             await connector.Conversations.ReplyToActivityAsync(reply);
         }
+
     }
 }
